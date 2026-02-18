@@ -35,9 +35,9 @@ public class run_stuff {
             else if (studentAverage >= 70) letterGrade = "C";
             else if (studentAverage >= 60) letterGrade = "D";
             else letterGrade = "F";
-            System.out.println(student + "Letter Grade: " + letterGrade);
+            System.out.println(student + "\nLetter Grade: " + letterGrade);
         }
-
+        System.out.println("\n\n");
         /////////////////////////////////
         //  FINDING THE BEST STUDENT   //
         /////////////////////////////////
@@ -50,6 +50,7 @@ public class run_stuff {
             }
         }
         System.out.println("Star Student: \n" + star);
+        System.out.println("\n\n");
 
         ///////////////////////////////
         // FINDING FAILING STUDENTS  //
@@ -60,5 +61,6 @@ public class run_stuff {
                 System.out.println(student);
             }
         }
+        System.out.println("\n\n");
     }
 }
